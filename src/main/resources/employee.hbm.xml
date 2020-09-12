@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class
+		name="com.simplilearn.hibernatedemo.HibernateDemoEMS.model.Employee"
+		table="Employee">
+
+		<id name="id" type="int" column="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="empName"  type="string" ></property>
+		<property name="salary"  type="double" ></property>
+		<property name="departement"  type="string" ></property>
+
+	</class>
+
+</hibernate-mapping>
